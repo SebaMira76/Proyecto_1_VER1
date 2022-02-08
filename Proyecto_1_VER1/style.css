@@ -1,0 +1,101 @@
+/* Ver 1 */
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  line-height: 1.2;
+  background-color: rgb(214, 206, 206);
+
+}
+
+.container_Header {
+  text-align: center;
+}
+
+#tilte {
+  font-size: 4rem;
+
+}
+
+.container_Header p {
+  font-size: 2.5rem;
+}
+
+.container_Article {
+  background: #bbbbcc;
+  height: auto;
+  width: auto ;
+  margin: 50px 1em;
+}
+
+article {
+  margin: 20px 40px;
+  font-size: 1.1rem;
+  padding: 30px 30px;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+/* Historia de Usuario #8:
+El elemento img debería cambiar de tamaño de forma responsiva, 
+en relación al ancho de su elemento padre, sin exceder su 
+tamaño original. */
+#image {
+  min-width: 60%;
+  height: auto;
+}
+
+/* Historia de Usuario #9:
+El elemento img debería estar centrado dentro de su elemento padre. */
+#img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+
+
+  #tilte {
+    font-size: 2rem;
+  }
+
+  .container_Header p {
+    font-size: 1.2rem;
+  }
+
+  .container_Article {
+    height: auto;
+    width: auto ;
+    margin: 5px 1em;
+  }
+
+  article {
+    margin: 5px 10px;
+    font-size: 0.7rem;
+    padding: 3px 3px;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  #image {
+    max-width: 10%;
+    height: auto;
+  }
+
+}
